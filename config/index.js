@@ -4,5 +4,7 @@ dotenv.config();
 
 export const {
     APP_PORT,
-    MONGOURI
+    MONGOURI,
+    BASEURL,
+    URL_LENGTH
 } = process.env;
